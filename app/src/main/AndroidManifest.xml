@@ -10,21 +10,26 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.App2hPAM12021">
         <activity
-            android:name=".Splash_Activity"
+            android:name=".Perfil_Activity"
             android:theme="@style/temaSemBarra">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".Splash_Activity"
+            android:theme="@style/temaSemBarra">
+
         </activity>
         <activity android:name=".CadastrarUsuario_Activity" />
         <activity android:name=".Principal_Activity" />
         <activity
             android:name=".Login_Activity"
-            android:theme="@style/temaSemBarra">
-
-        </activity>
+            android:theme="@style/temaSemBarra"></activity>
         <activity android:name=".MainActivity" />
     </application>
 
